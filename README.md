@@ -14,7 +14,6 @@
 
 ---
 
-## 
 >
 opening project for the first time
 >

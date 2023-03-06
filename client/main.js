@@ -16,7 +16,7 @@ document.querySelector('#app').innerHTML = `
     <a href="#" target="_blank">
       <img class="botImg" src="${theBot}" class="" alt="JavaScript logo" />
     </a>
-    <h1>Vite my meat!</h1>
+    <h1>ChatGPT API Test!</h1>
     <div class="card">
       <button id="counterPlus" type="button">+</button>
     </div>
@@ -24,7 +24,7 @@ document.querySelector('#app').innerHTML = `
       <button id="counterMinus" type="button">-</button>
     </div>
     <p class="read-the-docs">
-      Click on the Vite logo to learn more
+      project workspace link in the <a href="../README.md">README.md</a> file
     </p>
   </div>
 `
