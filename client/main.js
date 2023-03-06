@@ -1,18 +1,27 @@
 import './style.css'
-import javascriptLogo from './javascript.svg'
+import theBot from './bot.svg'
 import { setupCounter } from './counter.js'
 
 document.querySelector('#app').innerHTML = `
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
+  <style>
+  body {
+    background-image:linear-gradient:to top left, #000000aa,#ffffff55;
+  }  
+
+  </style>
+ <div>
+    <a href="" target="_blank">
+      <img class="userImg" src="./user.svg" class="logo" alt="Vite logo" />
     </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
+    <a href="#" target="_blank">
+      <img class="botImg" src="${theBot}" class="" alt="JavaScript logo" />
     </a>
-    <h1>Hello Vite!</h1>
+    <h1>Vite my meat!</h1>
     <div class="card">
-      <button id="counter" type="button"></button>
+      <button id="counterPlus" type="button">+</button>
+    </div>
+    <div class="card">
+      <button id="counterMinus" type="button">-</button>
     </div>
     <p class="read-the-docs">
       Click on the Vite logo to learn more
@@ -20,4 +29,4 @@ document.querySelector('#app').innerHTML = `
   </div>
 `
 
-setupCounter(document.querySelector('#counter'))
+setupCounter(document.querySelector('#counter'));

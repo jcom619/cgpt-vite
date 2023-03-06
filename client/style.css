@@ -4,9 +4,11 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  color: rgba(255, 255, 255, 0.587);
+  text-shadow:1px 1px 2px #000000,-1px -1px 2px #ffffffff;
+  background-image:linear-gradient(to top left, #000000,#336633);
+  box-shadow:inset 0 0 20px #000000;
+  
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -15,23 +17,55 @@
 }
 
 a {
+  transition: all .5s ease-in-out;
+  filter: blur(2px);
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
 }
 a:hover {
+  transition: all .5s ease-in-out;
+  filter: blur(0);
   color: #535bf2;
 }
+img {
+  position: absolute;
+  bottom:10px;
+  left:0;
+  transition: all .5s ease-out;
+  width:45vw;
+  height:45vw;
+}
+.userImg {
+  position: absolute;
+  width:30%;
+  transition: all .5s ease-out;
+  left:-50%;
+}
+.botImg {
+  position: absolute;
+  width:30%;
+  left:489%;
 
+}
+img:hover{
+  transition: all .5s ease-out;
+  width:55vw;
+height:55vw;
+}
 body {
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #04080f22;
+background-image: url("https://www.transparenttextures.com/patterns/hexabump.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 h1 {
+  margin-top: -205px;
   font-size: 3.2em;
   line-height: 1.1;
 }
@@ -45,7 +79,7 @@ h1 {
 
 .logo {
   height: 6em;
-  padding: 1.5em;
+  /* padding: 1.5em; */
   will-change: filter;
   transition: filter 300ms;
 }
@@ -61,37 +95,56 @@ h1 {
 }
 
 .read-the-docs {
-  color: #888;
+  color: #000;
 }
-
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
+  color: #ffffff88;
+  text-shadow:1px 1px 2px #000000,-1px -1px 2px #ffffffff;
+  border-radius: 50%;
+  width:10vw;
+  height:10vw;
+  display:flex;
+  /* flex-direction:row; */
+  border: none;
   padding: 0.6em 1.2em;
-  font-size: 1em;
+  font-size: 3em;
+  /* box-shadow: 6px 3px 16px #00000022,
+  -3px -3px 16px #ffffff33; */
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background: none;
+  /* background-image:linear-gradient(to top left, #00000033,#ffffff22); */
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: all 0.25s ease;
 }
-button:hover {
-  border-color: #646cff;
+.btnA {
+  position:absolute;
+  top:0;
+  left:0;
+}
+.btnB {
+  right:0;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
+.btnA:hover {
+  color: #646cff;
+  }
+.btnB:hover {
+  color: #ff646c;
+  }
+  
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: #ffffff77;
+    background-image:linear-gradient(to top left, #000000aa,#ffffff55);
   }
   a:hover {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #f9f9f900;
   }
 }
