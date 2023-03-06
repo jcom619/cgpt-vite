@@ -36,12 +36,10 @@ ________
 ```
 
 </div>
-
-<span>
-
 <h3 style="color:#ffffff77;text-shadow:1px 1px 6px #7f000044,-1px -1px 4px #007700,-1px -1px 1px #000000;">
 
-***~jCom619***
+***~jCom619*** [ptoject workspace]("https://jcom619.github.io/cgpt-vite/":target="_blank");
+
+---
 
 </h3>
-</span>

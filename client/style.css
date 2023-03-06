@@ -125,16 +125,16 @@ button {
 .btnB {
   right:0;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.btnA:focus,
+btnA:focus-visible {
+color: #646cff;
 }
-.btnA:hover {
-  color: #646cff;
-  }
+.btnB:focus,
+btnB:focus-visible 
+{color: #ff646c;}
 .btnB:hover {
-  color: #ff646c;
-  }
+  color:yellow;
+}
   
 @media (prefers-color-scheme: light) {
   :root {
@@ -142,6 +142,7 @@ button:focus-visible {
     background-image:linear-gradient(to top left, #000000aa,#ffffff55);
   }
   a:hover {
+    background: blue;
     color: #747bff;
   }
   button {
