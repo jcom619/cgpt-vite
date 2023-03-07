@@ -18,7 +18,7 @@
 opening project for the first time
 >
 
-<div style="font-size:20px;text-shadow:1px 1px 1px #ffffff77,-1px -1px 1px #007700,1px 1px 1px #000000;color:#5555ff88;text-align:center;align-items:center;justify-content:center;">
+<div style="font-size:20px;text-shadow:1px 1px 1px #ffffff77,-1px -1px 1px #007700,1px 1px 1px #000000;color:#5555ff88;text-align:start;align-items:start;justify-content:start;">
 
 ```bash
 
