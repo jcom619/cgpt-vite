@@ -38,7 +38,7 @@ ________
 </div>
 <h3 style="color:#ffffff77;text-shadow:1px 1px 6px #7f000044,-1px -1px 4px #007700,-1px -1px 1px #000000;">
 
-***~jCom619*** [workspace]("https://jcom619.github.io/cgpt-vite/");
+***~jCom619*** [github]("https://jcom619.github.io/cgpt-vite/");
 
 ---
 
