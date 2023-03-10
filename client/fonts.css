@@ -1,0 +1,97 @@
+@font-face {
+	font-family: title-font;
+	src: url(https://cdn.glitch.com/d15a0c62-6117-4382-a960-4f51f8fc660a%2FUniquelineRegular-axA2o.ttf?v=1626190937496);
+}
+.title-font {
+  font-family:title-font, sans-serif;
+}
+      
+@font-face {
+	font-family: tech-font;
+  src: url(https://cdn.glitch.com/d15a0c62-6117-4382-a960-4f51f8fc660a%2FAdoring-K7WBo.otf?v=1626709238350);
+}
+.tech-font {
+  font-family:tech-font, sans-serif;
+}
+
+@font-face {
+	font-family: fat-font;
+    src: url(https://cdn.glitch.com/d15a0c62-6117-4382-a960-4f51f8fc660a%2FDebugFreeTrial-MVdYB.otf?v=1626191026285);
+}
+.fat-font {
+  font-family:fat-font, sans-serif;
+}
+
+@font-face {
+	font-family: unique-font;
+  src: url(https://cdn.glitch.com/d15a0c62-6117-4382-a960-4f51f8fc660a%2FUniquelineRegular-axA2o.ttf?v=1626190937496);
+}
+.unique-font {
+  font-family:unique-font, sans-serif;
+}
+
+@font-face {
+	font-family: Logo-font;
+  src: url(https://cdn.glitch.com/d15a0c62-6117-4382-a960-4f51f8fc660a%2FSouthampton-MRqp.ttf?v=1626192294526);
+}
+.Logo-font {
+  font-family:Logo-font, sans-serif;
+}
+
+@font-face {
+	font-family: odd-font;
+  src: url(https://cdn.glitch.com/d15a0c62-6117-4382-a960-4f51f8fc660a%2FExthing-1Gox2.ttf?v=1626195753827);
+}
+.odd-font {
+  font-family:odd-font, sans-serif;
+}
+
+@font-face {
+	font-family: thin-font;
+  src: url(https://cdn.glitch.com/d15a0c62-6117-4382-a960-4f51f8fc660a%2FAngelikaPlayfull-2Og5l.otf?v=1626197031848);
+}
+.thin-font {
+  font-family:thin-font, sans-serif;
+}
+
+@font-face {
+	font-family: some-font;
+  src: url(https://cdn.glitch.com/d15a0c62-6117-4382-a960-4f51f8fc660a%2FAdoring-K7WBo.otf?v=1626709238350);
+}
+.some-font {
+  font-family:some-font, sans-serif;
+}
+@font-face {
+  font-family: scratch-font;
+  src: url(https://cdn.glitch.com/d15a0c62-6117-4382-a960-4f51f8fc660a%2FBoldaceBrush-ALJ3g.otf?v=1626749222917);
+}
+.scratch-font {
+  font-family:scratch-font, sans-serif;
+}
+
+         .cursor  {
+      cursor: auto;
+      cursor: url(https://cdn.glitch.com/d15a0c62-6117-4382-a960-4f51f8fc660a%2Fdotty_arrow.ico?v=1626149642111) 16 16, auto;
+      }
+
+      .exit  {
+      cursor: url(https://cdn.glitch.com/745f9a59-9ec4-49ad-b0eb-487b57bda865%2Fexit.ico?v=1625381210979) 2 2;
+      }
+      .Pointer  {
+      cursor: auto;
+      cursor: url(https://cdn.glitch.com/745f9a59-9ec4-49ad-b0eb-487b57bda865%2Fgreen_dotty_arrow%20copy.png?v=1631484701899) 16 16, auto;
+      }
+
+    /*.wui {*/
+    /*  cursor: url("https://cdn.glitch.com/3679e0c3-608c-42fe-ac73-38af7fe51ccb%2Fweather.ico?v=1625117152044")24 24, none;*/
+    /*}*/
+
+    /*.demo {*/
+    /*  cursor: url("https://cdn.glitch.com/3679e0c3-608c-42fe-ac73-38af7fe51ccb%2Ftry72.ico?v=1625117145853")24 24 , none;*/
+    /*}*/
+
+    /*.connect {*/
+    /*  cursor: url("https://cdn.glitch.com/3679e0c3-608c-42fe-ac73-38af7fe51ccb%2Fconnect.ico?v=1625117141710")24 24 , none;*/
+    /*}*/
+
+/* font-family: url(https://cdn.glitch.global/31127ec2-39d0-4816-a974-3e280d84cf90/Phosphate.ttc?v=1643247808494); */

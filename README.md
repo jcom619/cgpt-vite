@@ -1,3 +1,4 @@
+
 # cgpt-vite
 
 ## A chatGPT clone project using the Vite framework from
@@ -38,8 +39,6 @@ ________
 </div>
 <h3 style="color:#ffffff77;text-shadow:1px 1px 6px #7f000044,-1px -1px 4px #007700,-1px -1px 1px #000000;">
 
-***~jCom619*** [ptoject workspace]("https://jcom619.github.io/cgpt-vite/":target="_blank");
-
----
+***~jCom619*** [ - workspace link]("https://jcom619.github.io/cgpt-vite/");
 
 </h3>
