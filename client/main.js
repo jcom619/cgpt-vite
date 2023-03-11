@@ -1,33 +1,30 @@
-<html>
-  <link src="./style.css"/>
-  <link src="./fonts.css">
-  <link src="./assets/bot.svg">
-  <head>
-    document.querySelector('#app').innerHTML = ''
-  </head><body classList="tech-font">
-      <div>
-        <div style="position:absolute;z-index:5;left:40px;bottom:60px;" classList="sendDiv">
-          <input id="getText" classList="chat typeHere" type="text" />
-          <button id="sendBtn" classList="sendBtn">
-            &#128405;
-          </button>
-        </div>
-        <h1 classList="main-heading">ChatGPT API Test!</h1>
-        <div classList="icons">
-          <a href="" target="_blank">
-            <img classList="userImg" src="/assets/user.svg" classList="logo" alt="user" />
-          </a>
-          <a href="#" target="_blank">
-            <img classList="botImg" src="${theBot}" classList="" alt="JavaScript logo" />
-          </a>
-        </div>
-        <p classList="read-the-docs">
-          gitHub link in the <a href="https://github.com/jcom619/cgpt-vite"> HERE</a>
-        </p>
+import './style.css'
+import './fonts.css'
+import theBot from './assets/bot.svg'
+  document.querySelector('#app').innerHTML = ```
+<body>
+    <div>
+      <div style="position:absolute;z-index:5;left:40px;bottom:60px;" class="sendDiv">
+        <input id="getText" class="chat typeHere" type="text" />
+        <button id="sendBtn" class="sendBtn">
+          &#128405;
+        </button>
       </div>
-      <span classList="output">
-        <p id="textHere" classList="outputBox">
-        </p>
-      </span>
-    </body>
-  </html>
+      <h1 class="main-heading">ChatGPT API Test!</h1>
+      <div class="icons">
+        <a href="" target="_blank">
+          <img class="userImg" src="/assets/user.svg" class="logo" alt="user" />
+        </a>
+        <a href="#" target="_blank">
+          <img class="botImg" src="${theBot}" class="" alt="JavaScript logo" />
+        </a>
+      </div>
+      <p class="read-the-docs">
+        gitHub link in the <a href="https://github.com/jcom619/cgpt-vite"> HERE</a>
+      </p>
+    </div>
+    <span class="output">
+      <p id="textHere" class="outputBox">
+      </p>
+    </span>
+  </body>```
