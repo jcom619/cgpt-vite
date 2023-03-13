@@ -24,7 +24,7 @@ import theBot from './assets/bot.svg'
       </p>
     </div>
     <span class="output">
-      <p id="textHere" class="outputBox">
-      </p>
+      <div id="textHere" class="outputBox">
+      </div>
     </span>
   </body>`

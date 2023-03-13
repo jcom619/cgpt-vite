@@ -13,7 +13,9 @@
   text-shadow:1px 1px 2px #000000,-1px -1px 2px #ffffffff;
   background-image:linear-gradient(to top left, #330000,#333366);
   box-shadow:inset 0 0 20px #000000;
-  
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -23,7 +25,9 @@
 .main-heading {
   color:#ffffff55;
   /* margin-top:-500px; */
-  position:fixed;
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
   top:260px;
 }
 a {
@@ -48,17 +52,22 @@ a:hover {
 } */
 
 .userImg {
-  position: fixed;
+  position: absolute;
   width:100px;
   transition: all .5s ease-in-out;
+  transform:translateX(-50%);
   top:200px;
+  left: 75%;
+  
   filter:blur(3px);
 }
 .botImg {
+  transform:translateX(-50%);
+  position: relative;
   position: fixed;
   width:100px;
   transition: all .5s ease-in-out;
-  left:40%;
+  left:25%;
   top:200px;
   filter:blur(3px);
 }
@@ -73,7 +82,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-color: #04080f22;
-background-image: url("https://www.transparenttextures.com/patterns/hexabump.png");
+  background-image: url("https://www.transparenttextures.com/patterns/hexabump.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
@@ -164,6 +173,7 @@ h1 {
   padding: 5px;
   font-size: 20px;
   height:40px;
+  background-color: #ffffff44;
   border-radius:10px;
   
 }
@@ -192,18 +202,18 @@ h1 {
   border:2px solid #555599aa;
   width: 90%;
   height:200px;
+  filter: hue-rotate(180deg);
 }
-.outputBox {
-  position: absolute;
-  padding: 30px;
-  font-size: 25px;
-}
+
 .icons {
   display: flex;
   flex-direction:row;
   margin-right:50%;
 }
 @media screen and (max-height:800px) and (max-width:700px) {
+  .outputBox {
+    height:auto;
+  }
   .icons {
     display: flex;
     flex-direction:column;
