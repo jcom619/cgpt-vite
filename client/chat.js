@@ -1,8 +1,7 @@
-const textgpt = this.document.querySelector("#getText");
 const field = document.querySelector("#textHere");
-
+const textgpt = this.document.querySelector("#getText").value;
+textgpt =='';
 
 addEventListener("click", () => {
-    let theWords = textgpt.value;
-        field.innerHTML = theWords;
+    field.innerHTML = textgpt;
 });
