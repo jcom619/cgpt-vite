@@ -9,7 +9,13 @@
     <title>chatGPT API</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div id="chat_container">poodlePumpperSupreme </div>
+      <form action="chat.js">
+        <textarea className="input_box" placeholder=" Talk To young SkyNet...or else" name="prompt" id="input_box" cols="30" rows="2"></textarea>
+        <button type="submit"><img src="./assets/send.svg" alt="bawlin!" /></button>
+      </form>
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

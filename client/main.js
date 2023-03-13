@@ -1,7 +1,7 @@
 import './style.css'
 import './fonts.css'
 import theBot from './assets/bot.svg'
-  document.querySelector('#app').innerHTML = ```
+  document.querySelector('#app').innerHTML = `
 <body>
     <div>
       <div style="position:absolute;z-index:5;left:40px;bottom:60px;" class="sendDiv">
@@ -27,4 +27,4 @@ import theBot from './assets/bot.svg'
       <p id="textHere" class="outputBox">
       </p>
     </span>
-  </body>```
+  </body>`
