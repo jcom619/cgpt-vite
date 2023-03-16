@@ -6,7 +6,7 @@ import theBot from './assets/bot.svg'
     <div>
       <div style="position:absolute;z-index:5;left:40px;bottom:60px;" class="sendDiv">
         <input id="getText" class="chat typeHere" type="text" />
-        <button id="sendBtn" class="sendBtn">
+        <button id="sendBtn" type="submit" class="sendBtn">
           &#128405;
         </button>
       </div>
@@ -24,7 +24,9 @@ import theBot from './assets/bot.svg'
       </p>
     </div>
     <span class="output">
-      <div id="textHere" class="outputBox">
+    <div id="textHere" class="outputBox">
+    <h1 style="margin-top:20px;color:green;">tickle-test</h1>
+    <p>so lets go nutz</p>
       </div>
     </span>
   </body>`

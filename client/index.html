@@ -5,17 +5,19 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <link rel="icon" type="image/svg+xml" href="./assets/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="/chat.js"></script>
+    
     <title>chatGPT API</title>
   </head>
   <body>
     <div id="app">
-      <div id="chat_container">poodlePumpperSupreme </div>
+     
+      <div id="chat_container">
       <form action="chat.js">
-        <textarea className="input_box" placeholder=" Talk To young SkyNet...or else" name="prompt" id="input_box" cols="30" rows="2"></textarea>
-        <button type="submit"><img src="./assets/send.svg" alt="bawlin!" /></button>
+        <textarea className="input_box" placeholder=" Talk To young SkyNet...or else" name="prompt" id="input_box typedText" cols="30" rows="2"></textarea>
+        <button id="buttON" type="submit"><img src="./assets/send.svg" alt="bawlin!" /></button>
       </form>
     </div>
     <script type="module" src="/main.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
