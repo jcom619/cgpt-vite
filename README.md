@@ -16,31 +16,23 @@
 ---
 
 >
-opening project for the first time
->
+### opening project for the first time
 
-<div style="font-size:20px;text-shadow:1px 1px 1px #ffffff77,-1px -1px 1px #007700,1px 1px 1px #000000;color:#5555ff88;text-align:start;align-items:start;justify-content:start;">
+### open the teminal
 
-```bash
+## from proj4ect root
+___
 
-open the teminal 
-from project root
-__________
-                         
-$ cd client
+## $ cd client
 
-$ npm install
+## $ npm install
 
-$ npm run dev
-________
-
+## $ npm run dev
+_______
 ```
 
-</div>
-<h3 style="color:#ffffff77;text-shadow:1px 1px 6px #7f000044,-1px -1px 4px #007700,-1px -1px 1px #000000;">
+***
 
-***~jCom619*** [ptoject workspace]("https://jcom619.github.io/cgpt-vite/":target="_blank");
+~jCom619*** [ptoject workspace]("https://jcom619.github.io/cgpt-vite/":target="_blank");
 
----
-
-</h3>
+***
